@@ -1,0 +1,5 @@
+[root@hct3 linux-work-env]# git push -u origin master
+
+(gnome-ssh-askpass:17274): Gtk-WARNING **: cannot open display: 
+[root@hct3 linux-work-env]# unset SSH_ASKPASS
+
