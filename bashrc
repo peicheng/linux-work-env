@@ -31,3 +31,6 @@ else
 fi
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
+
+#fix SSH_ASKPASS
+unset SSH_ASKPASS

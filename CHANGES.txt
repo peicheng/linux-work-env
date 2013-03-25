@@ -1,0 +1,4 @@
+
+NEW
+
+linux-work-env-130326. add promt & new bashrc
