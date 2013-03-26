@@ -1,16 +1,5 @@
-a
-Create a new repository on the command line
+#linux-work-env
 
-touch README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/peicheng/linux-work-env.git
-git push -u origin master
+working linux env 
 
-Push an existing repository from the command line
-
-git remote add origin https://github.com/peicheng/linux-work-env.git
-git push -u origin master
-
-
+130326
