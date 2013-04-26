@@ -15,6 +15,7 @@ fi
 alias tree='tree -C'
 alias grep='grep --color'
 alias ls='ls -F --color'
+alias hadoopashdfs='sudo -u hdfs hadoop '
 export JAVA_HOME="/usr/jdk/jdk1.6.0_31/"
 PATH=$JAVA_HOME/bin:$PATH
 
@@ -34,3 +35,10 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 #fix SSH_ASKPASS
 unset SSH_ASKPASS
+
+alias datep='date +"%y.%m.%d %T"'
+alias daten='date +"%y%m%d %T"'
+alias datepc='date +"%y.%m.%d %T Peicheng Liao "'
+alias datepcl='date +"%y.%m.%d %T Peicheng Liao" ; echo "========================="'
+#alias datepclm='date +"%y.%m.%d %T Peicheng Liao <pcl99@gais.cs.ccu.edu.tw> " ; echo "========================="'
+alias datepclm='date +"%y.%m.%d %T Peicheng Liao <peicheng5 (a) gmail.com> " ; echo "========================="'
