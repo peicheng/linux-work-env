@@ -1,2 +1,3 @@
 yum -y install git
 yum -y install screen
+yum -y install python-pip
