@@ -26,9 +26,9 @@ export PS1='{\033[01;32m\]@\H:\033[01;33m\]\w\033[m}$ '
 
 
 if [ "$WINDOW" == "" ] ; then
-        PS1="\[\e[1;36m\]\u\[\e[31m\]@\[\e[33m\]\h\[\e[35m\][\w]\[\e[34m\]{\A}\[\e[0m\]\\$ "
+        PS1="\[\e[1;36m\]\u\[\e[31m\]@\[\e[33m\]\h\[\e[35m\][\w]\[\e[34m\]{\A}\[\e[0m\]\n\\$ "
 else
-        PS1="\[\e[1;36m\]\u\[\e[31m\]@\[\e[33m\]\H\[\e[35m\][\w]\[\e[34m\]{\A}\[\e[32m\]($WINDOW)\[\e[0m\]\\$ "
+        PS1="\[\e[1;36m\]\u\[\e[31m\]@\[\e[33m\]\H\[\e[35m\][\w]\[\e[34m\]{\A}\[\e[32m\]($WINDOW)\[\e[0m\]\n\\$ "
 fi
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
@@ -42,3 +42,4 @@ alias datepc='date +"%y.%m.%d %T Peicheng Liao "'
 alias datepcl='date +"%y.%m.%d %T Peicheng Liao" ; echo "========================="'
 #alias datepclm='date +"%y.%m.%d %T Peicheng Liao <pcl99@gais.cs.ccu.edu.tw> " ; echo "========================="'
 alias datepclm='date +"%y.%m.%d %T Peicheng Liao <peicheng5 (a) gmail.com> " ; echo "========================="'
+alias changelog='date +"%Y-%m-%d %T Peicheng Liao ( PC Liao ) <peicheng5 (a) gmail.com> "; echo -e "\n\t*"'
